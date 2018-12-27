@@ -23,5 +23,4 @@ class IPv4 extends IP
         return sprintf('%u', ip2long(inet_ntop($ip_addr)));
     }
 
-
 }

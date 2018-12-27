@@ -13,11 +13,6 @@ class IPv6 extends IP
         parent::__construct($ip);
     }
 
-    public static function parse($longIP)
-    {
-
-    }
-
     public function getLong($ip_addr)
     {
         $long = 0;

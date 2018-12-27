@@ -1,44 +1,44 @@
 <?php
+
 namespace devtoolboxuk\ipAddress;
-/**
- * @author Safarov Alisher <alisher.safarov@outlook.com>
- * @link https://github.com/S1lentium/IPTools
- */
+
 trait IpTrait
 {
     /**
-     * @param string $name
+     * @param $name
      * @return mixed
+     * @throws \Exception
      */
     public function __get($name)
     {
-        if(method_exists($this, $name)) {
+        if (method_exists($this, $name)) {
             return $this->$name();
         }
 
         foreach (array('get', 'to') as $prefix) {
             $method = $prefix . ucfirst($name);
-            if(method_exists($this, $method)) {
+            if (method_exists($this, $method)) {
                 return $this->$method();
             }
         }
 
-        trigger_error('Undefined property');
-        return null;
+        throw new \Exception(sprintf('%s is an undefined property', $name));
     }
 
     /**
-     * @param string $name
-     * @param mixed $value
+     * @param $name
+     * @param $value
+     * @throws \Exception
      */
     public function __set($name, $value)
     {
-        $method = 'set'. ucfirst($name);
-        if (!method_exists($this, $method)) {
-            trigger_error('Undefined property');
+        $method = 'set' . ucfirst($name);
+        if (method_exists($this, $method)) {
+            $this->$method($value);
             return;
+
         }
-        $this->$method($value);
+        throw new \Exception(sprintf('%s is an undefined property', $name));
     }
 
 }
