@@ -1,13 +1,13 @@
 # IP Address
 
-[![Build Status](https://api.travis-ci.org/devtoolboxuk/ipAddress.svg?branch=master)](https://travis-ci.org/devtoolboxuk/ipAddress)
-[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/devtoolboxuk/ipAddress/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/devtoolboxuk/ipAddress/?branch=master)
-[![Coveralls](https://coveralls.io/repos/github/devtoolboxuk/ipAddress/badge.svg?branch=master)](https://coveralls.io/github/devtoolboxuk/ipAddress?branch=master)
-[![CodeCov](https://codecov.io/gh/devtoolboxuk/ipAddress/branch/master/graph/badge.svg)](https://codecov.io/gh/devtoolboxuk/ipAddress)
+[![Build Status](https://api.travis-ci.org/devtoolboxuk/ip-address.svg?branch=master)](https://travis-ci.org/devtoolboxuk/ip-address)
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/devtoolboxuk/ip-address/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/devtoolboxuk/ip-address/?branch=master)
+[![Coveralls](https://coveralls.io/repos/github/devtoolboxuk/ip-address/badge.svg?branch=master)](https://coveralls.io/github/devtoolboxuk/ip-address?branch=master)
+[![CodeCov](https://codecov.io/gh/devtoolboxuk/ip-address/branch/master/graph/badge.svg)](https://codecov.io/gh/devtoolboxuk/ip-address)
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/devtoolboxuk/ipAddress.svg?style=flat-square)](https://packagist.org/packages/devtoolboxuk/ipAddress)
-[![Total Downloads](https://img.shields.io/packagist/dt/devtoolboxuk/ipAddress.svg?style=flat-square)](https://packagist.org/packages/devtoolboxuk/ipAddress)
-[![License](https://img.shields.io/packagist/l/devtoolboxuk/ipAddress.svg?style=flat-square)](https://packagist.org/packages/devtoolboxuk/ipAddress)
+[![Latest Stable Version](https://img.shields.io/packagist/v/devtoolboxuk/ip-address.svg?style=flat-square)](https://packagist.org/packages/devtoolboxuk/ip-address)
+[![Total Downloads](https://img.shields.io/packagist/dt/devtoolboxuk/ip-address.svg?style=flat-square)](https://packagist.org/packages/devtoolboxuk/ip-address)
+[![License](https://img.shields.io/packagist/l/devtoolboxuk/ip-address.svg?style=flat-square)](https://packagist.org/packages/devtoolboxuk/ip-address)
 
 ## Table of Contents
 
@@ -25,7 +25,7 @@ Initially created so that I could store IP addresses in a database and do a look
 ## Usage
 
 ```sh
-$ composer require devtoolboxuk/ipAddress
+$ composer require devtoolboxuk/ip-address
 ```
 
 Then include Composer's generated vendor/autoload.php to enable autoloading:
@@ -35,7 +35,7 @@ require 'vendor/autoload.php';
 ```
 
 ```sh
-use devtoolboxuk/ipAddress;
+use devtoolboxuk/ip-address;
 
 IP::parse($ipAddress)->long
 IP::parse($ipAddress)->toLong()
