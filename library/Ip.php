@@ -66,7 +66,7 @@ class IP
         return new self(inet_ntop($inAddr));
     }
 
-    public function parseRange($data)
+    public static function parseRange($data)
     {
         return Network::parse($data);
     }

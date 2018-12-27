@@ -18,7 +18,7 @@ class IPv4 extends IP
         return new self(long2ip($ipAddress));
     }
 
-    public function getLong($ip_addr)
+    public static function getLong($ip_addr)
     {
         return sprintf('%u', ip2long(inet_ntop($ip_addr)));
     }

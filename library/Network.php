@@ -227,7 +227,7 @@ class Network implements \Iterator
      * @return IP
      * @throws \Exception
      */
-    public function prefix2netmask($prefixLength, $version)
+    public static function prefix2netmask($prefixLength, $version)
     {
         if (!in_array($version, array(IPv4::version, IPv6::version))) {
             throw new \Exception("Wrong IP version");
