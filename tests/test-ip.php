@@ -4,6 +4,8 @@ namespace devtoolboxuk\ipAddress;
 
 use PHPUnit\Framework\TestCase;
 
+use devtoolboxuk\ipAddress\IP;
+
 class IpTest extends TestCase
 {
     function __construct($name = null, array $data = [], $dataName = '')
