@@ -1,5 +1,13 @@
 # IP Address
 
+[![Build Status](https://api.travis-ci.org/devtoolboxuk/ipAddress.svg?branch=master)](https://travis-ci.org/devtoolboxuk/ipAddress)
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/devtoolboxuk/ipAddress/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/devtoolboxuk/ipAddress/?branch=master)
+[![Coveralls](https://coveralls.io/repos/github/devtoolboxuk/ipAddress/badge.svg?branch=master)](https://coveralls.io/github/devtoolboxuk/ipAddress?branch=master)
+[![CodeCov](https://codecov.io/gh/devtoolboxuk/ipAddress/branch/master/graph/badge.svg)](https://codecov.io/gh/devtoolboxuk/ipAddress)
+
+[![Latest Stable Version](https://img.shields.io/packagist/v/devtoolboxuk/ipAddress.svg?style=flat-square)](https://packagist.org/packages/devtoolboxuk/ipAddress)
+[![Total Downloads](https://img.shields.io/packagist/dt/devtoolboxuk/ipAddress.svg?style=flat-square)](https://packagist.org/packages/devtoolboxuk/ipAddress)
+[![License](https://img.shields.io/packagist/l/devtoolboxuk/ipAddress.svg?style=flat-square)](https://packagist.org/packages/devtoolboxuk/ipAddress)
 
 ## Table of Contents
 
