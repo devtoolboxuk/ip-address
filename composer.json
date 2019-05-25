@@ -6,7 +6,7 @@
   "autoload": {
     "psr-4": {
       "": "library/",
-      "devtoolboxuk\\ipAddress\\": "library/"
+      "devtoolboxuk\\internetaddress\\": "library/"
     },
     "classmap": [
       "library"

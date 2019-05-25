@@ -1,6 +1,6 @@
 <?php
 
-namespace devtoolboxuk\ipAddress;
+namespace devtoolboxuk\internetaddress;
 
 use PHPUnit\Framework\TestCase;
 

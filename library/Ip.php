@@ -1,6 +1,6 @@
 <?php
 
-namespace devtoolboxuk\ipAddress;
+namespace devtoolboxuk\internetaddress;
 
 class IP
 {
