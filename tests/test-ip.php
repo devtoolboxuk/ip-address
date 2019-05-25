@@ -4,8 +4,6 @@ namespace devtoolboxuk\ipAddress;
 
 use PHPUnit\Framework\TestCase;
 
-use devtoolboxuk\ipAddress\IP;
-
 class IpTest extends TestCase
 {
     function __construct($name = null, array $data = [], $dataName = '')
@@ -63,7 +61,7 @@ class IpTest extends TestCase
         ];
 
         $network = IP::parseRange($string . $range);
-        $i=0;
+        $i = 0;
         foreach ($network as $ip) {
             $this->assertEquals($rangeResult[$i], IP::parse($ip)->long);
             $i++;
